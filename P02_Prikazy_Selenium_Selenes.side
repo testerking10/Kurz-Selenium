@@ -1,0 +1,156 @@
+{
+  "id": "36bb89cc-f8db-4cb3-85c9-9d4dcaa3dd85",
+  "version": "2.0",
+  "name": "P02_Prikazy_Selenium_Selenes",
+  "url": "https://www.google.sk",
+  "tests": [{
+    "id": "30beff9d-795a-4c5e-bb5c-74ca4faf8c9e",
+    "name": "TC_001_Otvorenie_Web_Stranok",
+    "commands": [{
+      "id": "67542021-e684-406b-9085-754127c11f46",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.sk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d98dda7-4b24-4f52-b373-8daace36d70f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.facebook.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a87cf1c-05aa-43a2-9c44-5a41c0f64357",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk/sk/titulna-stranka",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8e63f9ae-66e4-4ab4-a2fc-e120e01da5a6",
+    "name": "TC_002_Cakanie_Element_Wait",
+    "commands": [{
+      "id": "f0af459f-fea7-4628-b5b9-3afd2c898c75",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.facebook.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4380c846-6930-4a8f-9213-92557f1ea8b0",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=u_0_2_UJ",
+      "targets": [
+        ["id=u_0_2_UJ", "id"],
+        ["css=#u_0_2_UJ", "css:finder"],
+        ["xpath=//form[@id='u_0_2_UJ']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div[2]/div/div/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "85e71a97-ebd3-4846-9614-b83a12be2145",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b40c6468-af98-43aa-883e-c6dfbdd719fc",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=#logo > img",
+      "targets": [
+        ["css=#logo > img", "css:finder"],
+        ["xpath=//img[@alt='Ústredný portál verejných služieb ľuďom']", "xpath:img"],
+        ["xpath=//a[@id='logo']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": "20000"
+    }, {
+      "id": "40bc8e21-4ba9-48f7-ae32-14090a4ee0b7",
+      "comment": "",
+      "command": "echo",
+      "target": "Test uspesny",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5cfec15b-175d-4b53-9b8d-a062ec176b82",
+    "name": "TC_002_Cakanie_Element_Wait2",
+    "commands": [{
+      "id": "72c925bc-364c-4af6-b557-45ed5e68b711",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22d50f98-11ac-4bd3-9c42-287c5bf6244b",
+      "comment": "",
+      "command": "//waitForElementVisible",
+      "target": "css=.naviPanel:nth-child(3)",
+      "targets": [],
+      "value": "20000"
+    }, {
+      "id": "56f38717-36ab-4a65-bac2-4da98f0f00b2",
+      "comment": "",
+      "command": "echo",
+      "target": "Test uspesny",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "248abca8-8da7-4b9b-a723-133a6967daf7",
+    "name": "TC_003_Cakanie_Element_Wait",
+    "commands": [{
+      "id": "7f63497c-9ba3-49da-9f8a-091adb4e56cf",
+      "comment": "",
+      "command": "//moja poznamka zaciatok testu",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63bb74d0-9b90-41af-ad8b-3d58fa91ca0e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8732929b-0a24-42e9-a56a-a3683bdc195d",
+      "comment": "",
+      "command": "//waitForElementVisible",
+      "target": "css=.naviPanel:nth-child(3)",
+      "targets": [],
+      "value": "20000"
+    }, {
+      "id": "7bf8c1f2-3d50-4d2e-bdb9-dec87005820f",
+      "comment": "",
+      "command": "echo",
+      "target": "Test uspesny",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "250c09b7-bd9d-4c6a-9410-0444a3f8dde8",
+      "comment": "",
+      "command": "//moja poznamka koniec testu",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b6ef33fe-698f-4e47-a5f8-618731cebd56",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["30beff9d-795a-4c5e-bb5c-74ca4faf8c9e"]
+  }],
+  "urls": ["https://www.google.sk/"],
+  "plugins": []
+}
