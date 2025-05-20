@@ -1,0 +1,328 @@
+{
+  "id": "652e340e-2cb0-40f9-88aa-6812f0f2502d",
+  "version": "2.0",
+  "name": "Google Selenium",
+  "url": "https://opensource-demo.orangehrmlive.com/",
+  "tests": [{
+    "id": "2440b91f-2cad-42a6-b269-83068e4ba78a",
+    "name": "TC01_Selenium dwnld",
+    "commands": [{
+      "id": "55ea21da-d37d-4740-9bda-76698fbdce1c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "139a8f46-f9c4-4c65-93be-d48aea14d8cd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x1153",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52f0f07b-776c-4a8f-bd35-cb3ce518c828",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81212895-e4df-4a0c-aba2-d4661f526141",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "selenium"
+    }, {
+      "id": "28a03439-ccf6-404d-9437-8dd3f8f05c8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#jZ2SBf > .wM6W7d > span",
+      "targets": [
+        ["css=#jZ2SBf > .wM6W7d > span", "css:finder"],
+        ["xpath=//div[@id='jZ2SBf']/div/span", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'selenium ide')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "572a2ced-1732-4cf3-b52c-7257e366d4c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MjjYud:nth-child(1) .LC20lb:nth-child(1)",
+      "targets": [
+        ["css=.MjjYud:nth-child(1) .LC20lb:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Open source record and playback test automation for the web')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a00eda12-d1fa-47c8-a91f-4c97c507291f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section:nth-child(2) .pluginWrapper:nth-child(1) > .button",
+      "targets": [
+        ["css=.section:nth-child(2) .pluginWrapper:nth-child(1) > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Chrome Download')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4235",
+      "windowTimeout": 2000
+    }, {
+      "id": "783f6ca3-fcc4-4d56-9f9b-d956e7cc6eb4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4235}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "33530264-6c98-4d9f-8701-31b87cc275b7",
+    "name": "TC02_google calculator",
+    "commands": [{
+      "id": "306fe9b1-5ce6-4599-a8d3-bb301d323cc8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56b4fdb8-9cd8-4a2e-a1a4-d63e62ecfaa3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1113x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b349ea7-8e7e-474f-8e06-14ba76191077",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "calc"
+    }, {
+      "id": "34d2170f-f898-4284-b185-015d5715638a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#jZ2SBf > .wM6W7d > span",
+      "targets": [
+        ["css=#jZ2SBf > .wM6W7d > span", "css:finder"],
+        ["xpath=//div[@id='jZ2SBf']/div/span", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'calculator')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1ce84e3-cb24-4342-9ee2-a31dba23c75d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(2) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[3]/td[2]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[3]/td[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45629a70-eeaa-4a77-8974-a5f595d9d705",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .mF5fo > .MEdqYd",
+      "targets": [
+        ["css=tr:nth-child(5) .mF5fo > .MEdqYd", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[5]/td[4]/div/div", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dbb0837-2b75-44a0-a808-b93c6a7f1e8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(3) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(3) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[4]/td[3]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[4]/td[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3a57b42-1886-42b4-8f97-26843cd9300d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.UUhRt",
+      "targets": [
+        ["css=.UUhRt", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[5]/td[3]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[5]/td[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f92a7740-c986-421a-a3d5-974441397e7b",
+      "comment": "",
+      "command": "click",
+      "target": "id=cwos",
+      "targets": [
+        ["id=cwos", "id"],
+        ["css=#cwos", "css:finder"],
+        ["xpath=//span[@id='cwos']", "xpath:attributes"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'8')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71ebcdc7-9de1-4b74-b908-0ccf12fb47f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TIGsTb",
+      "targets": [
+        ["css=.TIGsTb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9a163bcc-66c3-49a3-a53c-c64e21fdfcda",
+    "name": "TC03_HR_IS_Prihlasenie_Odhlasenie",
+    "commands": [{
+      "id": "40922d2c-d01b-4ab7-8927-b2b32cda27f5",
+      "comment": "",
+      "command": "open",
+      "target": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe8f8825-b805-4872-b7da-e99022293218",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1123x976",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70a0ef4b-3495-412d-99b0-d1a58617a11e",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.oxd-input--focus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0f9ccab-be6b-412a-acd6-86b77e88fb68",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.oxd-input--focus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Admin"
+    }, {
+      "id": "31f54e3e-24fd-411b-b080-f947263ed3b6",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.oxd-input--focus", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cf2d47c-cec2-48e8-8e21-48208d34b5d2",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.oxd-input--focus", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "admin123"
+    }, {
+      "id": "89ac1cb5-6090-4e3d-bc41-d0389ed45b00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.oxd-button",
+      "targets": [
+        ["css=.oxd-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88ac927b-c915-44f8-9ccf-d4fbbfdad9c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bi-caret-down-fill",
+      "targets": [
+        ["css=.bi-caret-down-fill", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/header/div/div[3]/ul/li/span/i", "xpath:idRelative"],
+        ["xpath=//span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da294b6f-f992-44b6-a497-2e00b70458b7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=li:nth-child(4) > .oxd-userdropdown-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div/header/div/div[3]/ul/li/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/web/index.php/auth/logout')]", "xpath:href"],
+        ["xpath=//li/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "488058f6-225f-488c-a9bf-a7494d5c023e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2440b91f-2cad-42a6-b269-83068e4ba78a"]
+  }],
+  "urls": ["https://www.google.sk/", "https://opensource-demo.orangehrmlive.com/"],
+  "plugins": []
+}
